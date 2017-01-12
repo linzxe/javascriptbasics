@@ -57,6 +57,23 @@ else if(isAdmin === true){
 else if(isLoggedin === true){
 	console.log("You're Logged In!")
 }
+
+//better way below:
+if (isLoggedIn) {
+	console.log("Welcome! " + firstName);
+	if(isAdmin){
+		console.log("boo")
+	} else if(isManager){
+	console.log("of course ur the best")
+	} else if (isEmployee){
+		console.log("You are the smartest")
+	}
+}
+
+
+
+
+
 */
 
 
@@ -70,6 +87,7 @@ Create an if statement that has several conditions.
  a different way. If the records were the same, talk some smack. 
  
  */
+ /*
 var coltsWinBig = false
 var patriotsWinBig = false
 var coltsWinBarely = false
@@ -89,8 +107,7 @@ else if(coltsWinBarely === true){
 else if(patriotsWinBarely === true){
 	console.log("Never forget we can trust the patriots. They're in it to win it")
 }
-
-
+*/
 
 
 
@@ -105,3 +122,8 @@ else if(patriotsWinBarely === true){
 //*HINT*
  //you have to build this in relp.it 
 //Research prompt
+
+
+
+
+
