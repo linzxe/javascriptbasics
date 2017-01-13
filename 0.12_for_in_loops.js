@@ -21,7 +21,7 @@ for (var letter in favShow) {
 var vowelCount = 0;
 var favFood = "apple";
 for (letter in favFood) {
-	if (favFood[letter].toLowerCase() === "a" || ){
+    if (favFood[letter].toLowerCase() === "a" || favFood[letter].toLowerCase() === "e" || favFood[letter].toLowerCase() === "i" || favFood[letter].toLowerCase() === "o" || favFood[letter].toLowerCase() === "u") {
 		vowelCount++;
 	}
 }
