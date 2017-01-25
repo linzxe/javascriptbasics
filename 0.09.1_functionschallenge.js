@@ -79,7 +79,7 @@ function billz(rent, water){
 console.log(billz(550, 50))
 
 //gold:
-//this references the previous functio
+//this references the previous function
 console.log(calculatePriceIndiana(100, .99, 0.07))
 
 
