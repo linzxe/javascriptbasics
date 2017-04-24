@@ -60,4 +60,3 @@ console.log("You will need " + avgLifetimeWater + " glasses of water to last you
 
 
 
-

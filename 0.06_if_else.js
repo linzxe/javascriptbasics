@@ -89,9 +89,3 @@ if (bankAccount >= 3000 && isInDebt === false){
 
 
 
-
-
-
-
-
-
